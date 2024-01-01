@@ -7,3 +7,20 @@
 	padding: 1rem;
 }
 
+ol.pokemons {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+ol.pokemons li {
+	margin: 0.5rem;
+	padding: 2rem 1rem;
+	border-radius: 1rem;
+	background-color: #14a06f;
+	color: #fff;
+	height: 100px;
+}
